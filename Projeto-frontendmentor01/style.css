@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --cor0: ;
+}
+
+
+
+* {
+    padding: 10px;
+    
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 10px 20px 50px 0.5px rgba(0, 0, 0, 0.13);
+}
+
+header {
+    flex: 1;
+    border-radius: 30px 30px 30px 30px;
+    background-color: hsl(240, 3%, 85%);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%)); /* Dois pontos de cor e direção */
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.result {
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    flex: 2;
+}
+.pontuacao {
+    border-radius: 50%;
+    width: 100px; /* Adicione um tamanho aqui, ajuste conforme necessário */
+    height: 100px; /* Adicione um tamanho aqui, ajuste conforme necessário */
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: white; /* Defina uma cor de texto para que seja visível no fundo */
+    text-align: center; /* Centralize o conteúdo */
+    font-size: 20px; /* Defina o tamanho da fonte desejado */
+    line-height: 50px; /* Ajuste a linha central para centralizar verticalmente o conteúdo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Defina a altura desejada ou remova essa linha */
+
+}
